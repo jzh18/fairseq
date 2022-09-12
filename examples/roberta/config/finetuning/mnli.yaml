@@ -24,6 +24,7 @@ checkpoint:
   best_checkpoint_metric: accuracy
   maximize_best_checkpoint_metric: true
   no_epoch_checkpoints: true
+  no_save: true
 
 distributed_training:
   find_unused_parameters: true
@@ -51,7 +52,7 @@ optimization:
   clip_norm: 0.0
   lr: [1e-05]
   max_update: 123873
-  max_epoch: 10
+  max_epoch: 1
 
 model:
   _name: roberta
