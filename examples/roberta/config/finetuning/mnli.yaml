@@ -24,6 +24,7 @@ checkpoint:
   best_checkpoint_metric: accuracy
   maximize_best_checkpoint_metric: true
   no_epoch_checkpoints: true
+  
 
 distributed_training:
   find_unused_parameters: true
